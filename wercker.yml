@@ -17,7 +17,7 @@ deploy:
           theme: bootswatch
           flags: --buildDrafts=false --baseURL=${TARGET_URL}
       - script:
-          name: clean up artifact
+          name: build artifact
           code: |
             cd ./public
             tar zcvf ${WERCKER_OUTPUT_DIR}/moinz-de-blog.tar.gz ./*
