@@ -18,7 +18,8 @@ $ rm -rf tmp
 
 If you now run your new docker command, you should get an error about docker being unable to connect to a socket at /var/run/docker.sock:
 
-```$ docker  version
+```
+$ docker  version
 Go version (client): go1.1.1
 2013/09/09 15:04:07 dial unix /var/run/docker.sock: no such file or directory
 ```
