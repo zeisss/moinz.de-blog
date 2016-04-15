@@ -4,13 +4,11 @@ build:
     - arjen/hugo-build:
         theme: bootswatch
         flags: --buildDrafts=true
-
     - script:
         name: tar up website
-        code: |
+        code: |
           cd ./public/
           tar zcvf ${WERCKER_OUTPUT_DIR}/moinz-de-blog.tar.gz ./*
-
     - zeisss/mfs-upload:
         url: $MFS_ENDPOINT
         username: $MFS_USER
