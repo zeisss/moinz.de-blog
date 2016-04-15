@@ -49,4 +49,4 @@ Done! You are good to go. Have fun with Docker!
 
 !!! A word of warning: This changes allows anyone to send your docker daemon commands and control it! You should make sure the VM is only reachable from your local machine. !!!
 
-(This was also posted on [Coderwall.com](http://web.archive.org/web/20141218030327/https://coderwall.com/p/r6ivdq))
+(This was also posted on [Coderwall.com](https://coderwall.com/p/r6ivdq))
