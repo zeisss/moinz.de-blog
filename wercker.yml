@@ -2,5 +2,18 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        theme: bootswatch 
+        theme: bootswatch
         flags: --buildDrafts=true
+
+    - script:
+        name: tar up website
+        code: |
+          cd ./public/
+          tar zcvf ${WERCKER_OUTPUT_DIR}/moinz-de-blog.tar.gz ./*
+
+    - zeisss/mfs-upload:
+        url: $MFS_ENDPOINT
+        username: $MFS_USER
+        password: $MFS_PASSWORD
+        file: ${WERCKER_OUTPUT_DIR}/moinz-de-blog.tar.gz
+        path: /artifacts/moinz-de-blog/${WERCKER_GIT_BRANCH}-${WERCKER_GIT_COMMIT}/moinz-de-blog.tar.gz
