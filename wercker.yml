@@ -15,7 +15,7 @@ deploy:
   steps:
       - arjen/hugo-build:
           theme: bootswatch
-          flags: --buildDrafts=false --baseURL=${TARGET_URL}
+          flags: --buildDrafts=${HUGO_BUILD_DRAFTS:-false} --baseURL=${TARGET_URL}
       - script:
           name: build artifact
           code: |
