@@ -2,6 +2,5 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.14"
-        theme: herring-cove
+        theme: bootswatch 
         flags: --buildDrafts=true
