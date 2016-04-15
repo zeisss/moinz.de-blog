@@ -1,6 +1,6 @@
 +++
 date = "2013-03-11T01:07:31+02:00"
-title = "film your desktop on the mac"
+title = "Film your desktop on the Mac"
 lang = "de"
 +++
 
