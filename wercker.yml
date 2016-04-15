@@ -15,3 +15,23 @@ build:
         password: $MFS_PASSWORD
         file: ${WERCKER_OUTPUT_DIR}/moinz-de-blog.tar.gz
         path: /artifacts/moinz-de-blog/${WERCKER_GIT_BRANCH}-${WERCKER_GIT_COMMIT}/moinz-de-blog.tar.gz
+
+deploy:
+  steps:
+      - script:
+          name: Deploy artifact
+          code: |
+              site_name=${DEPLOY_SITENAME:-fs}
+              desired_version="${WERCKER_GIT_BRANCH}-${WERCKER_GIT_COMMIT}"
+
+              test -z "$DEPLOY_TOKEN" && fail "Env DEPLOY_TOKEN missing."
+
+              deployResult=$(curl -H"Authorization: bearer ${DEPLOY_TOKEN}" "${DEPLOY_ENDPOINT}" --data-urlencode "site=${site_name}" --data-urlencode "desired_version=${desired_version}" --output $WERCKER_REPORT_ARTIFACTS_DIR/deploy.json -w '%{http_code}')
+              if [ "$deployResult" -eq 200 ]; then
+                success "Deploy completed."
+              else
+                fail "$(cat $WERCKER_REPORT_ARTIFACTS_DIR/deploy.json)"
+              fi
+  after-steps:
+    - wercker/slack-notifier@1.2.1:
+        url: $DEPLOY_SLACK_URL
