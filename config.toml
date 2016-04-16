@@ -1,3 +1,16 @@
 baseurl = "http://moinz.de/"
 languageCode = "en-us"
 title = "Moinz.de - ZeissS blog"
+
+[params]
+  title = "Moinz.de"
+  subtitle = "ZeissS blog"
+  copyright = "Stephan Zeissler 2008-2016"
+  themeColor = "orange"
+
+  # Author
+  name = "Stephan Z"
+  twitter = "zeisss_public"
+  github = "zeisss"
+
+  
