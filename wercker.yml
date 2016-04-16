@@ -2,7 +2,7 @@ box: php
 build:
   steps:
     - arjen/hugo-build:
-        theme: bootswatch
+        theme: steam 
         flags: --buildDrafts=true
     - script:
         name: clean up artifact
@@ -14,7 +14,7 @@ deploy:
   # then create a deployment artifact for the target site. Ugly :(
   steps:
       - arjen/hugo-build:
-          theme: bootswatch
+          theme: steam 
           flags: --buildDrafts=${HUGO_BUILD_DRAFTS:-false} --baseURL=${TARGET_URL}
       - script:
           name: build artifact
