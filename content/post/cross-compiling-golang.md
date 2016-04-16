@@ -1,6 +1,7 @@
 +++
 date = "2013-03-26T00:59:34+02:00"
 title = "Cross Compiling Go"
+description = "Compiling your go code for other platforms"
 +++
 
 Update: Since Go 1.6 you don't need this anymore. The compiler can always crosscompile.
