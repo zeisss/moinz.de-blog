@@ -1,7 +1,7 @@
 +++
 date = "2013-03-25T01:08:47+02:00"
 title = "Hello Wobble"
-
+description = "Falls wer einen Ersatz für [Google Wave](http://wave.google.com/) sucht, was leider seit Anfang des Jahres auf Read-Only steht, kann sich mal mein [Wobble Projekt](https://github.com/zeisss/wobble) auf Github anschauen."
 +++
 
 Falls wer einen Ersatz für [Google Wave](http://wave.google.com/) sucht, was leider seit Anfang des Jahres auf Read-Only steht, kann sich mal mein [Wobble Projekt](https://github.com/zeisss/wobble) auf Github anschauen.

@@ -2,6 +2,7 @@
 date = "2009-11-06T01:16:41+02:00"
 title = "Webseiten ueber bonjour verteilen"
 lang = "de"
+description = "Wer wie wir einen alten Rechner als Server abgestellt hat installiert doch gerne mal allerlei Anwendungen die dauerhaft oder zumindest ständig für alle verfügbar sein sollen."
 +++
 
 Wer wie wir einen alten Rechner als Server abgestellt hat installiert doch gerne mal allerlei Anwendungen die dauerhaft oder zumindest ständig für alle verfügbar sein sollen. Bei uns ist dies unter anderem ein Musikplayer ([MPD](http://mpd.wikia.com/)) der bei Besuch im Wohnzimmer für ein wenig Atmosphäre sorgt. Zu den diversen Webinterfaces verliert man, zumindest ich immer mal wieder die URL, so dass man regelmäßig auf dem Server selbst nachschauen muss was man da eingestellt hat.

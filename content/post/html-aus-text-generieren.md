@@ -2,6 +2,7 @@
 date = "2008-11-13T01:31:45+02:00"
 title = "HTML aus Text generieren"
 lang = "de"
+description = "Irgendwie begegnet mir dieses Thema in letzter Zeit immer öfters. Neu dabei: AsciiDocs"
 +++
 
 Irgendwie begegnet mir dieses Thema in letzter Zeit immer öfters. Beim Anschauen von [Ewiki](http://github.com/patrikf/ewiki) ist mir [Textile](http://www.textism.com/tools/textile/) und [Markdown](http://daringfireball.net/projects/markdown/) ([PHP](http://michelf.com/projects/php-markdown/)) begegnet: Einfache PHP Klassen, mit der man aus Text entsprechende HTML Seiten generieren kann. Sowas ist ja durchaus nicht nur für Wikis sondern z.B. bei Projekten für das generieren von Dokumentation interessant: Bei [Maven](http://www.maven.org/) wird dieses Prozedere zum generieren der Projektdokumentation genutzt. Da ich aber Maven ansonsten nicht mag, habe ich durchaus einige Zeit damit verbracht ein Standalone-Tool zum generieren solcher Seiten zu suchen. [Docbook](http://www.docbook.org/) mit seinen XML Dateien ist mir irgendwie zu aufgeblasen, wobei ich dies aber nicht wirklich genauer angeschaut habe.

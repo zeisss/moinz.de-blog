@@ -2,6 +2,7 @@
 date = "2013-03-11T01:07:31+02:00"
 title = "Film your desktop on the Mac"
 lang = "de"
+description = "reminder for myself to use QuickTime Player for recording the desktop"
 +++
 
 Damit ich die Links nicht ewig in meinen Tabs offenhalten muss:

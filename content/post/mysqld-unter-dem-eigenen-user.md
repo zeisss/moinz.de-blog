@@ -2,6 +2,7 @@
 date = "2009-08-01T01:18:44+02:00"
 title = "Mysqld unter dem eigenen user"
 lang = "de"
+description = "Einer der wenigen Dinge die mich am Mac nerven ist die Tatsache, dass viele Programme mit Gewalt am Anfang als Administrator installiert und betrieben werden wollen. Dabei ist dies in vielen Fällen gar nicht nötig. Wer auf dem Mac seine Programme nicht für alle Benutzer installieren will, leg sich einfach einen Applications-Ordner im Benutzerordner an und speichert seine Programme dort. Gleiches gilt für Mysql."
 +++
 
 Einer der wenigen Dinge die mich am Mac nerven ist die Tatsache, dass viele Programme mit Gewalt am Anfang als Administrator installiert und betrieben werden wollen. Dabei ist dies in vielen Fällen gar nicht nötig. Wer auf dem Mac seine Programme nicht für alle Benutzer installieren will, leg sich einfach einen Applications-Ordner im Benutzerordner an und speichert seine Programme dort. Der Vorteil liegt darin, dass man sich dann nur um das Sichern des Benutzerordners kümmern muss; die Programme die man nutzt werden mitgesichert. Bei einer Neuinstallation muss ich nur den Benutzerordner wiederherstellen und ich kann weiterarbeiten.

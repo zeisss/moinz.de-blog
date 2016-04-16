@@ -1,6 +1,7 @@
 +++
 date = "2013-09-09T00:59:23+02:00"
 title = "Running the docker client on Mac OS X"
+description = "Update: Nowadays (2016) docker is easily supported on Mac OS with the docker-tools. Just visit https://docs.docker.com/mac/"
 +++
 
 Update: Nowadays (2016) docker is easily supported on Mac OS with the docker-tools. Just visit https://docs.docker.com/mac/

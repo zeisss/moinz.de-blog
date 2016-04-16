@@ -1,12 +1,10 @@
 +++
 date = "2013-03-26T00:59:34+02:00"
 title = "Cross Compiling Go"
-description = "Compiling your go code for other platforms"
+description = "Update: Since Go 1.6 you don't need this anymore. The compiler can always crosscompile."
 +++
 
 Update: Since Go 1.6 you don't need this anymore. The compiler can always crosscompile.
-
-(I wrote this as a protip on [Coderwall](https://coderwall.com/p/pnfwxg))
 
 Compiling your go code into a binary is pretty simple:
 
@@ -38,3 +36,5 @@ $ GOARCH=arm GOOS=linux go build helloworld
 ```
 
 PS: If you want to crosscompile for ARM v5/v6 CPU (e.g. for the raspberry pi), you need to set `GOARM=5` to use different set of operations for floating point math.
+
+(I wrote this as a protip on [Coderwall](https://coderwall.com/p/pnfwxg))
