@@ -7,6 +7,7 @@ title = "Moinz.de - ZeissS blog"
   subtitle = "ZeissS blog"
   copyright = "Stephan Zeissler 2008-2016"
   themeColor = "orange"
+  bio = "Just a nerd"
 
   # Author
   name = "Stephan Z"
