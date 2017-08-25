@@ -22,9 +22,9 @@ deploy:
             cd ./public
             tar zcvf ${WERCKER_OUTPUT_DIR}/moinz-de-blog.tar.gz ./*
       - zeisss/mfs-upload:
-          url: $MFS_ENDPOINT
-          username: $MFS_USER
-          password: $MFS_PASSWORD
+          url: $FS_ENDPOINT
+          username: $FS_USER
+          password: $FS_PASSWORD
           file: ${WERCKER_OUTPUT_DIR}/moinz-de-blog.tar.gz
           path: /artifacts/${DEPLOY_SITENAME}/${WERCKER_GIT_BRANCH}-${WERCKER_GIT_COMMIT}/moinz-de-blog.tar.gz
 
